@@ -103,7 +103,7 @@ bot.hears('Tell me a joke', (ctx) => {
 });
 
 
-bot.hears('Semesters previous Question Paper', (ctx) => {
+bot.hears('Semester previous Question Paper', (ctx) => {
   const pyqMenu = Markup.keyboard([[`semester 1 PYQ's`, `semester 2 PYQ's`, `semester 3 PYQ's`, 'Back']
 
   ]).resize();
